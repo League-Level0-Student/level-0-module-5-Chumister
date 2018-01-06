@@ -9,26 +9,45 @@ public static void main(String[] args) {
 String input = key.nextLine();
 System.out.println("Hi "+input);
 input= key.nextLine();
-System.out.println("You were dropped in a room with 5 keys and 5 doors. Every door within has a child that is about to be dropped to a furnace. You can only choose one key. Which key can you choose?"); input = key.nextLine();
+System.out.println("You were dropped in a room with 5 doors. Which door do you choose?");
 input= key.nextLine();
 
-if (input.equals("1st key")) {
-	System.out.println("Congratulations you have rescued one kid!(the rest are dead)");
-}
-if(input.equals("2nd key")) {
-	System.out.println("Congratulations you have rescued one kid!(the rest are dead)");}
-if(input.equals("3rd key")) {
-	System.out.println("Congratulations you have rescued one kid!(the rest are dead)");
+if (input.equals("1st door")) {
+	System.out.println("You open the first door where you are dropped in the Underwhere. A place where all people have their games over. A ghost tells you to give up. Do you give up?"); input = key.nextLine();
+	if (input.equals("no")) {
+		System.out.println("You walk forward and then you reach a purple river. Do you dive in?"); input = key.nextLine();{
+		if (input.equals("no")) {
+		System.out.println("Game Over YEAHHHh!");
+		}
+		if (input.equals("yes"));
+		System.out.println("You jump into the river. As you swim you start to hear distorted voices of people wanting you to save them. You look down and see hands floating in the bottom of the surface. Do you want to turn back?"); input = key.nextLine();
+	if (input.equals("no")) {
+		System.out.println("GAME OVER YEAAH!");}
+	if (input.equals("yes")) {
+		System.out.println("You reach the other side and see a door. Do you want to open it?"); input=key.nextLine();
+		if (input.equals("no")) {
+	System.out.println("GAME OVER YEAHH!");}
+	if (input.equals("yes"));
+	System.out.println("You wake up in a hospital, where you are recovering from a coma");
+if (input.equals("no")); {
+	System.out.println("Game Over");}
+{
+	
+}	
+}}}}
+if(input.equals("2nd door")) {
+	System.out.println("You were dropped in a white room with no way out. GAME OVER YEAAAH!");}
+if(input.equals("3rd door")) {
+	System.out.println("You fall endlessly through the void of time and space. GAME OVER YEAHH!");
 	
 }
-if(input.equals("4th key")) {
-System.out.println("Congratulations you have rescued one kid!(the rest are dead)");
+if(input.equals("4th door")) {
+System.out.println("You were dropped into a black void of nothingness. GAME OVER YEAAAH!");
 
 }
-if(input.equals("5th key")) {
-	System.out.println("Congratulations you have rescued one kid!(the rest are dead)");
+if(input.equals("5th door")) {
+	System.out.println("You were dropped into a giant venus flytrap where you live for the rest of your life.");
 
-}
-if(input.equals("melt all keys to save all children")){
-System.out.println("You melt all the keys to rescue the children but since that is not how it works, you killed all five children instead of saving one.");
 }}}
+
+
