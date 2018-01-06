@@ -64,14 +64,23 @@ import java.awt.DisplayMode;
 //	}}
 
 
+//public class Forloopgauntlet {
+//	public static void main(String[] args) {
+//	for(int i=2002; i<2018; i++) {
+//	if (i%1==0) {
+//		System.out.println("In " +i);
+//		System.out.println("I was " +(i -2002) + " years old");
+//	}
+//	}
+//}}
 public class Forloopgauntlet {
 	public static void main(String[] args) {
-	for(int i=2002; i<2018; i++);
-	if (i%2==0) {
-		System.out.printIn(i);
-	}
-	}
+		for(int i=1; i<2; i++) {
+			for(int k=1; k<2; k++) {
+			if (i%1==0) {
+			System.out.println(i);
+			System.out.println(k);
 }
-
-
-
+}
+}}
+}
