@@ -39,8 +39,8 @@ JOptionPane.showConfirmDialog(null, "Eat your Wheaties!")	;
 }
 
 void skill2() { // Write a loop to print every third number between 1 and 30 to the console 
-for(int i=0; i>3; i++) {
-
+for(int i=0; i<30; i=i+3) {
+System.out.println(i);
 
 
 
