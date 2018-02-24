@@ -48,12 +48,12 @@ System.out.println(i);
 }
 void skill3() { // Get a random number that is less than 20 and print it to the console 
 
-
-
+String g = JOptionPane.showInputDialog("Pick a number between 1 and 20");
+System.out.println(g);
 // Get another random number that is less than 10 and print it to the console 
+String a = JOptionPane.showInputDialog("Pick a number between 1 and 10");
 
-
-
+System.out.println(a);
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
 
 
@@ -87,12 +87,12 @@ void skill4() { // In a pop-up, ask the user for the city they live in
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
-
+String f = JOptionPane.showInputDialog("What is the name of your school?");
 
 
 // In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
 
-
+JOptionPane.showConfirmDialog(null, f + " is a fantastic school name");
 
 
 }
